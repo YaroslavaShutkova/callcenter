@@ -1,5 +1,15 @@
 # callcenter
 
+## База операторов
+```
+json-server --watch db.json
+```
+
+## Пользователь тестовый
+```
+yaroslava.shutkova@mail.ru  123456
+```
+
 ## Project setup
 ```
 npm install

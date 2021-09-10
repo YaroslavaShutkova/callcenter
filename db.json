@@ -1,0 +1,64 @@
+{
+  "operators": [
+    {
+      "image": "1.png",
+      "name": "Megafon",
+      "available": true,
+      "tarifes": [
+    { "tarifname" : "Тариф №1", "available" : true },
+    { "tarifname" : "Тариф №2", "available" : true },
+    { "tarifname" : "Тариф №3", "available" : true }
+  ]
+    },
+    {
+      "image": "2.png",
+      "name": "MTS",
+      "available": true,
+      "tarifes": [
+    { "tarifname" : "Тариф №4", "available" : true },
+    { "tarifname" : "Тариф №5", "available" : true },
+    { "tarifname" : "Тариф №6", "available" : true }
+  ]
+    },
+    {
+      "image": "4.png",
+      "name": "Tele2",
+      "available": true,
+      "tarifes": [
+    { "tarifname" : "Тариф №7", "available" : true },
+    { "tarifname" : "Тариф №8", "available" : true },
+    { "tarifname" : "Тариф №9", "available" : true }
+  ]
+    },
+    {
+      "image": "4.png",
+      "name": "InterNet",
+      "available": true,
+      "tarifes": [
+    { "tarifname" : "Тариф №10", "available" : true },
+    { "tarifname" : "Тариф №11", "available" : true },
+    { "tarifname" : "Тариф №12", "available" : true }
+  ]
+    },
+    {
+      "image": "4.png",
+      "name": "BasaNet",
+      "available": true,
+      "tarifes": [
+    { "tarifname" : "Тариф №13", "available" : true },
+    { "tarifname" : "Тариф №14", "available" : true },
+    { "tarifname" : "Тариф №15", "available" : true }
+  ]
+    },
+    {
+      "image": "4.png",
+      "name": "StarNet",
+      "available": true,
+      "tarifes": [
+    { "tarifname" : "Тариф №16", "available" : true },
+    { "tarifname" : "Тариф №17", "available" : true },
+    { "tarifname" : "Тариф №18", "available" : true }
+  ]
+    }
+  ]
+}

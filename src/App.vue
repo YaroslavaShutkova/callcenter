@@ -1,26 +1,50 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+  <Navbar />
+
+
+<!-- <SignIn v-if="!signComplete"/> -->
+<!-- <router-view @addUser="email=$event.email, signComplete=$event.complete, userUid=$event.uid" :uid="userUid" :email="userEmail"></router-view>
+
+<div v-if="callComplete">
+<router-link to="/step2"></router-link>
+<router-view></router-view>
+</div>
+
+<router-link to="/step2">Go to Step2</router-link>
+<router-view></router-view>  -->
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
+  data() {
+    return {
+      sign: 'sign-in',
+      isMainPage: false,
+      signComplete: false,
+      email: '',
+      uid: ''
+    }
+  },
   components: {
-    HelloWorld
+    Navbar //, SignIn
+  },
+  methods: {
+    switchSign(currentSign) {
+      this.sign = currentSign;
+    }
   }
 }
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+
 </style>
